@@ -1,0 +1,28 @@
+{
+    "type": "object",  
+    "title": "Post Add Account",
+    "description": "Post Add Account",
+    "required": ["claveAgente","cuenta","contrasena", "identificadorAseguradora"],
+    "properties": {
+      "claveAgente": {
+        "type": "integer"
+      },
+      "cuenta": {
+        "type": "string",
+        "maxLength": 50
+      },
+      "contrasena": {
+        "type": "string",
+        "maxLength": 15
+      },
+      "contrasena_2": {
+        "type": "string",
+        "maxLength": 15
+      },
+      "identificadorAseguradora": {
+        "type": "integer"
+      },
+      "additionalProperties": false
+    }
+  }
+  
